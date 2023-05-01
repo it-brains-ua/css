@@ -10,10 +10,10 @@ router.get('/', function (req, res) {
   })
 })
 
-router.get('practic_2', function (req, res) {
+router.get('/les2', function (req, res) {
   res.render('practic_2', {
     pagetitle: 'Practic 2',
-    layout: 'default',
+    layout: 'les2',
   })
 })
 // Підключаємо роутер до бек-енду
