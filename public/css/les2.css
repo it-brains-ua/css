@@ -68,11 +68,11 @@ color: blue;
 }
 
 .lesson-four-task-sixteen input:out-of-range {
-    background-color: red;
+   color: red;
 }
 
 .lesson-four-task-seventeen input:in-range {
-    background-color: red;
+    color: red;
 }
 
 .lesson-four-task-eighteen input:placeholder-shown {
