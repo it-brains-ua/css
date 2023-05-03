@@ -1,0 +1,46 @@
+.card > p {
+    color: red;
+    -webkit-text-stroke: 1px blue;
+    -webkit-text-fill-color: red;
+}
+
+/* Зміна положення при наведенні */
+/* p {
+    direction: rtl;
+} */
+
+/* Орієнтація тексту
+P {
+ writing-mode:(horizontal.tb, vartical-rl, vertical-lr
+} */
+
+/* Вирівнювання по горизонталі */
+/* p {
+    text-align: right, left, centr;
+                start, end, justify
+} */
+
+/* Змінює текст */
+/* p {
+    text-transform: ;
+} */
+
+/* Визначає ширину відступу табуляції */
+/* p {
+    tab-size: ;
+} */
+
+/* Визначає відстань між літерами */
+/* p {
+    letter-spacing: ;
+} */
+
+/* Додає до тексту властивості (підчерк і. т.д */
+/* p {
+    text-decoration: ;
+} */
+
+/* p {
+    text-decoration-style: ;
+} */
+
