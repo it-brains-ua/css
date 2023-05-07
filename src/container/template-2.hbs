@@ -1,14 +1,18 @@
 <div class='page'>
   <div class='page_content'>
     
+    <header>
+     {{> header_nav}}
+    </header>
+
     <div class="page_block">
         {{> hero title=hero.title text=hero.text}}        
     </div>
     
     <div class="page_block">
-      <div class="row g-4">
+      <div class="flex_container">
         {{#each preview}}
-        <div class="col-6">
+        <div class="flex_item">
           {{> card_preview data=this}}
         </div>
         {{/each}}        
@@ -56,6 +60,10 @@
           </div>
         </div>
       </main>
-    </div>   
+    </div>
+   
+    <footer>
+    {{> temp_1_footer}}
+  </footer>   
   </div>
 </div>

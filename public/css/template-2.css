@@ -23,7 +23,9 @@ html {
 }
 
 .header {
-    padding: 24px;    
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;    
 }
 
 .divider {
@@ -68,6 +70,8 @@ color: blue;
 
 footer {
     padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_copiright {
@@ -172,13 +176,6 @@ footer {
 
 .button:hover {
     background-color: #509ced;
-}
-
-.preview {
-    padding: 24px;
-    border-radius: 24px;
-    border: 1px solid #DEE2E6;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .preview_header > span:not(:last-of-type) {
@@ -345,4 +342,22 @@ footer {
 
 .link_item:hover {
     text-decoration: underline;
+}
+.flex_container {    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;     
+}
+
+.flex-item {
+    
+}
+
+.preview {
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px solid #DEE2E6;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    width: 440px;
 }
