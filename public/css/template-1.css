@@ -68,20 +68,23 @@ color: blue;
 
 footer {
     padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer_copiright {
-    font-size: 14px;
-    color: #6c757d;
+    font-size: var(--size-s);
+    color: var(--color-text);
     display: block;
-    margin-top: 12px;
+    margin-top: var(--space-l);
 }
 
 .footer_title {
-    font-size: 20px;
-    color: #212529;
+    font-size: var(--size-l);
+    color: var(--color-title);
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: var(--space-m);
+    font-weight: var(--font_weight-title);
 }
 
 .hero_title {
