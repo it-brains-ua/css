@@ -1,0 +1,158 @@
+html {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.page {
+    background-color: 
+    #FFFFFF;
+    padding: 0 15px;
+}
+
+.page_block {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.page_content {
+    max-width: 960px;
+    margin: 0 auto;  
+}
+
+.logo {
+    font-size: 17px;
+}
+
+.header {
+    padding: 24px;    
+}
+
+.divider {
+    margin: 0;
+}
+
+.nav {
+display: block;
+}
+
+.nav_link {
+    color: #343A40;
+    font-size: 16px;
+    text-decoration: none;    
+}
+.nav_link:hover {
+text-decoration: underline;
+color: blue;
+}
+
+.nav_vertical > .nav_link {
+    display: block;
+}
+
+.nav_inline > .nav_link:not(last-child) {
+    margin-right: 24px;
+    display: inline;
+}
+
+.nav_vertical > .nav_link:not(last-child) {
+    margin-bottom: 12px;
+}
+
+.header-nav-right {
+    margin-left: auto;
+    width: fit-content;
+}
+
+.page_block:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+footer {
+    padding: 24px 0;
+}
+
+.footer_copiright {
+    font-size: 14px;
+    color: #6c757d;
+    display: block;
+    margin-top: 12px;
+}
+
+.footer_title {
+    font-size: 20px;
+    color: #212529;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.hero_title {
+    font-size: 56px;
+    color: #212529;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.hero_text {
+    color: #212529;
+    font-size: 20px;
+    text-align: center;
+    max-width: 585px;
+    margin: 0 auto;
+}
+
+.hero {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.plans_card:not(:last-of-type) {
+    margin-right: 24px;
+}
+
+.card-header {
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
+    color: #212529;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.card_block {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: #212529
+}
+
+.card_block.plans_card:not(:last-of-type){
+    margin-bottom: 24px;
+}
+
+.card_price_duration {
+    font-size: 29px;
+    color: #6c757d;
+}
+
+.card_description {
+    margin-bottom: 24px;
+}
+
+.card_description_item {
+    font-size: 16px;
+    color: #212529;
+    display: block;
+    text-align: center;
+}
+.card_description_item.plans_card:not(:last-of-type) {
+    margin-bottom: 12px;
+}
+
+.card_button {
+    display: block;
+    width: 100%;
+    font-size: 19px;
+    padding: 9px;
+}
