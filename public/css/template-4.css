@@ -1,0 +1,252 @@
+:root {
+    --space-m:12px;
+    --space-l:24px;
+    --space-b:36px;
+
+    --size-s:14px;
+    --size-m:16px;
+    --size-l:20px;
+    
+    --font_weight-title:500px;
+
+    --color-border:#dee2e6;
+    --color-logo:#563D7C;
+    --color-white:#fff;
+    --color-title: #5A5A5A;
+    --color-text:#5A5A5A;
+
+    --border-radius:12px;
+}
+/* =========================== */
+.header {
+    padding: var(--space-l);
+}
+
+html {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.page {
+    background-color: 
+    #FFFFFF;
+    padding: 0 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.page_block {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.page_content {
+    max-width: 960px;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+/* ======================= */
+.logo {
+    font-size: 17px;
+    background: var(--color-logo);
+    color: var(--color-white);
+    width: 24px;
+    height: 24px;
+    border-radius: calc(var(--border-radius) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    padding: var(--space-l);
+    display: flex;
+    justify-content: space-between;    
+}
+
+.divider {
+    margin: 0;
+}
+
+.nav {
+display: block;
+display: flex;
+}
+
+.nav_inline {
+    gap: 24px;
+}
+
+.nav_vertical {
+    gap: var(--space-m);
+    flex-direction: column;
+}
+
+.nav_link {
+    color: var(--color-text);
+    font-size: var(--size-m);
+    text-decoration: none; 
+    line-height: 140%;   
+}
+.nav_link:hover {
+text-decoration: underline;
+color: blue;
+}
+
+.nav_vertical > .nav_link {
+    display: block;
+}
+
+footer {
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_copiright {
+    font-size: var(--size-s);
+    color: var(--color-text);
+    display: block;
+    margin-top: var(--space-l);
+}
+
+.footer_title {
+    font-size: var(--size-l);
+    color: var(--color-title);
+    display: block;
+    margin-bottom: var(--space-m);
+    font-weight: var(--font_weight-title);
+}
+
+/* =============================================== */
+
+.main {
+    display: flex;
+    gap: var(--space-b);
+    align-items: center;
+    padding: var(--space-b);
+    border-bottom: solid 1px var(--color-border);
+}
+
+.main_photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+}
+
+.main_title {
+    font-weight: var(--font_weight-title);
+    font-size: 50px;
+    color: var(--color-title);
+    line-height: 120%;
+}
+
+.main_text {
+    font-weight: 400;
+    font-size: var(--size-l);
+    line-height: 170%;
+}
+
+/* ============================================ */
+
+.featured {
+    display: flex;    
+    gap: var(--space-b);
+    padding: var(--space-b);
+    border-bottom: solid 1px var(--color-border);
+}
+
+/* ============================================= */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    gap: var(--space-l);    
+}
+
+.card_title {
+    color: var(--color-title);
+    font-weight: var(--font_weight-title);
+    font-size: 32px;
+   
+}
+
+.card_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-text);   
+}
+
+
+.card_img {
+    width: 64px;
+    height: 64px;
+    border-radius: 12px;    
+}
+
+.card_button {
+   line-height: 16px;
+   size: 16px;
+}
+
+.card_button:hover {
+    text-decoration: none;
+}
+
+/* ============================================ */
+
+.form {
+    display: flex;
+    justify-content: space-around;
+    background: #563D7C;
+    align-items: center;
+    gap: var(--space-l);
+    padding: var(--space-l);
+    border-radius: var(--border-radius);
+    width: 1000px;
+    height: 129px;
+}
+
+.form_content {
+    display: flex;    
+    flex-direction: column;
+    gap: var(--space-m);
+}
+
+.form_title {
+    font-size: 24px;
+    font-weight: var(--font_weight-title);
+    color: var(--color-white);
+}
+
+.form_action {
+    width: 240px;
+    height: 52px;
+}
+
+.form_button {
+    display: inline-block;
+    padding: 12px 16px;
+    background: var(--color-white);
+    color: black;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    text-align: center;
+    width: 160px;
+}
+
+.form_button:hover {
+    opacity: 0.7;
+}

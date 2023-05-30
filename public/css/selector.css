@@ -1,0 +1,67 @@
+.card {    
+    margin: 20px;
+    background: red;
+    /* background-color: transparent; (робить прозорість) */
+    /* background-repeat: repeat; (Повторення картинки) */
+    /* background-attachment: fixed; (Вказує як саме зображувати фонову картинку на сторінці */
+    /* background-position: 0%; (вказує як зображати картинку відносно елемента) */
+    /* background-size: contain; (вказує розмір фонового зображення)*/
+    /* background-clip: border-box; (вказує регіон відображення фонового малюнку)*/
+    /* background-origin: border-box; (визначає від якого місця елем. починається відображення) */
+    /* border-image(-source,-width,-slice,repeat,outset): repeat; (встановлює зображення для рамки)*/
+}
+
+/* РОБОТА ІЗ СПИСКАМИ ТА ТАБЛИЦЯМИ */
+.spysok {
+    /* list-style-type: ...; (використовується для встановлення виду маркера списку*/
+    /* display: list-item; (елемент відображається як маркований або нумерований список)*/
+    /* list-style-position: inside; (відповідає за розміщення маркерів відносно тексту */
+    /* list-style-image: none; (вставляє картинку замість маркера) */
+
+    /* table-layout: auto; (вказує як вображати таблицю)*/
+}
+
+/* ФЛЕКС БОКС */
+
+
+
+/* Зміна положення при наведенні */
+/* p {
+    direction: rtl;
+} */
+
+/* Орієнтація тексту
+P {
+ writing-mode:(horizontal.tb, vartical-rl, vertical-lr
+} */
+
+/* Вирівнювання по горизонталі */
+/* p {
+    text-align: right, left, centr;
+                start, end, justify
+} */
+
+/* Змінює текст */
+/* p {
+    text-transform: ;
+} */
+
+/* Визначає ширину відступу табуляції */
+/* p {
+    tab-size: ;
+} */
+
+/* Визначає відстань між літерами */
+/* p {
+    letter-spacing: ;
+} */
+
+/* Додає до тексту властивості (підчерк і. т.д */
+/* p {
+    text-decoration: ;
+} */
+
+/* p {
+    text-decoration-style: ;
+} */
+
