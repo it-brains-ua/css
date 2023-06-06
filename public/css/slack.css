@@ -231,9 +231,7 @@
         display: grid;
         gap: var(--spacing-5);
         background-image: url('/img/need.jpg');
-        background-repeat: no-repeat;
-        
-       
+        background-repeat: no-repeat;            
     }
 }
 
@@ -249,7 +247,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: var(--spacing-3);
-    padding-left: 330px;    
+    padding-left: 330px;
 }
 
 .feat_card_big {
@@ -262,7 +260,13 @@
     gap: 24px;
     justify-content: center;
     align-items: center;
-    height: 480px;    
+    height: 480px;        
+}
+
+.delivero_content {
+    display: flex;
+    width: 1020px;
+    gap: 38px;    
 }
 
 .img_delivero {
@@ -274,11 +278,17 @@
 .explore {
     display: grid;
     justify-content: center;
-    max-width: 1000px;
-    max-height: 505px;
+    width: 100%;
+    height: 100%;
     flex-direction: column;    
     gap: 40px;       
 }
+
+.explore_content {
+    width: 1005px;
+    height: 505px;
+}
+
 .card {
     display: flex;
     flex-direction: row;
@@ -294,12 +304,9 @@
     align-items: end;    
 }
 
-.icon_button {
-        
-}
 @layer adaptive {
 
-        @media all and (1260px <= width) {
+    @media all and (1260px <= width) {
         .page_content {        
             max-width: var(--page-width-big);
         }
@@ -320,6 +327,14 @@
         .page_content {        
             max-width: var(--page-width-small);
         }
+
+        .features_section_2 {
+            background-image: none;
+        }
+
+        .features_content_2 {
+            padding-left: 330px;
+        }
     
         .hero_image {       
            position: static;
@@ -337,7 +352,7 @@
 
         .features_grid_4 > .feat_card:first-of-type {
             grid-row: 1 / 3;
-        }
+        }       
     }
 
     @media all and (width < 600px) {
@@ -367,6 +382,12 @@
     @media all and (width < 800px) {
         .features_section {
             background-image: none;
+        }
+    }
+
+    @media all and (width < 1060px) {
+        .features_grid_3 {            
+            padding-left: 100px;    
         }
     }
 }
