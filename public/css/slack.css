@@ -304,7 +304,7 @@
     align-items: end;    
 }
 
-@layer adaptive {
+/* @layer adaptive { */
 
     @media all and (1260px <= width) {
         .page_content {        
@@ -379,15 +379,28 @@
         }
     }
 
-    @media all and (width < 800px) {
+    @media all and (width < 1060px) {
         .features_section {
             background-image: none;
         }
-    }
 
-    @media all and (width < 1060px) {
+        .features_content_2 {
+            text-align: start;
+            padding: 0px;
+        }
+
         .features_grid_3 {            
-            padding-left: 100px;               
+            padding-left: 0px; 
+            justify-content: start;              
+        }
+        
+        .card {
+            flex-wrap: wrap;            
+        }
+
+        .title_card {
+            width: 300px;
         }
     }
-}
+    
+/* } */
