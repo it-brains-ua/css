@@ -387,7 +387,7 @@
 
     @media all and (width < 1060px) {
         .features_grid_3 {            
-            padding-left: 100px;    
+            padding-left: 100px;               
         }
     }
 }
