@@ -2,21 +2,19 @@
 const express = require('express')
 // Cтворюємо роутер - місце, куди ми підключаємо ендпоїнти
 const router = express.Router()
-
-// ================================================================
-
-// router.get Створює нам один ентпоїнт
-
 //           ↙ тут вводимо шлях (PATH) до сторінки
 router.get('/', function (req, res) {
-  // res.render генерує нам HTML сторінку
-
-  //            ↙ cюди вводимо назву файлу з сontainer
-  res.render('index', {})
-  //                  ↑↑ сюди вводимо JSON дані
+  res.render('index', {
+    pagetitle: 'Practic 1',
+    layout: 'default',
+  })
 })
 
-// ================================================================
-
+router.get('/les2', function (req, res) {
+  res.render('practic_2', {
+    pagetitle: 'Practic 2',
+    layout: 'les2',
+  })
+})
 // Підключаємо роутер до бек-енду
 module.exports = router
