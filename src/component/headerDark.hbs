@@ -1,0 +1,18 @@
+<header>
+	<div class="header">
+		{{>logoBrand}}
+		<nav class="header_nav">
+			<div class="header_nav_right">
+				{{>nav list=header.links}}
+			</div>
+		</nav>
+	</div>
+	<div class="header_ad">
+		<div class="ad_button">
+			{{#with header.ad}}
+			<a class="ad_item" href="{{url}}"><span class="ad_logo">Ad</span> {{text}} {{url}}</a>
+			{{/with}}
+		</div>
+		<div class="user_count">User online: {{header.userOnline}}</div>
+	</div>
+</header>

@@ -1,7 +1,131 @@
-html {
-  max-width: 720px;
+/* p {
+    background: rgb(64, 0, 255);
+} */
+
+/* .card>p {
+    color: hsla(127, 100%, 63%, 0.1);
+} */
+
+/* .card {
+    color: red;
+} */
+
+/* тут 2 обводка тексту */
+.card>p {
+	color: green;
+	-webkit-text-fill-color: red;
+	-webkit-text-stroke: 1px blue;
 }
 
-body {
-  background: #fff;
+p:focus,
+p:active,
+p:hover {
+	-webkit-text-fill-color: rgb(254, 246, 8);
+	-webkit-text-stroke: 1px rgb(255, 0, 166);
+
+	direction: center;
 }
+
+
+
+/* direction: rtl; при наведенні зміна розташування тексту */
+
+/* власт успадк з бвтьківського red */
+/* #test {
+    color: inherit;
+    -webkit-text-fill-color: inherit;
+    -webkit-text-stroke: inherit;
+} */
+
+/* властивості стають за замовчуванням */
+/* #test {
+    color: initial;
+    -webkit-text-fill-color: initial;
+    -webkit-text-stroke: initial;
+} */
+
+/* власт успадк з бвтьківського при відсут базові */
+#test {
+	color: unset;
+	-webkit-text-fill-color: unset;
+	-webkit-text-stroke: unset;
+
+	text-align: justify;
+	letter-spacing: 0.01em;
+
+}
+
+span {
+	text-align: left;
+	text-transform: uppercase;
+
+	text-decoration: underline solid red;
+}
+
+span:hover {
+	text-decoration-line: line-through;
+	text-decoration-style: dotted;
+}
+
+
+pre {
+	tab-size: 16;
+	letter-spacing: 10%;
+}
+
+/* writing-mode: vertical-lr; робить текст вертикально */
+
+/* прибере рамку */
+/* .card {
+    border:none;
+} */
+
+
+* {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 900;
+	font-display: swap;
+
+
+	font-style: italic;
+}
+
+span {
+	font-size: larger;
+
+	font-weight: 900;
+
+	font-style: oblique;
+}
+
+/* варто перевіряти чи є  в посиланні 900 */
+
+* {
+	font-family: fantasy;
+}
+
+/* .test {
+	font-weight: lighter;
+} */
+
+.test {
+	display: none;
+}
+
+/* для того аби сховати */
+
+.block {
+	display: inline-block;
+	background: rgb(208, 208, 208);
+	margin: auto;
+
+	margin-left: 50px;
+	width: 250px;
+
+	height: auto;
+	min-height: 100px;
+	max-height: max-content;
+}
+
+/* width: min-content дає мін шпиринк до прерноса або кінця слова; */

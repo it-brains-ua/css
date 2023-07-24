@@ -1,0 +1,14 @@
+<div class="head_articles">
+	<h2 class="articles_title">Our Articles:</h2>
+	<button class="articles_button" href="#">View all</button>
+</div>
+<div class="card">
+	{{#each articles}}
+	<div class="articles_card">
+		<img class="articles_photo" src="{{photo}}" alt="{{name}}">
+		<h2 class="articles_name">{{name}}</h2>
+		<p class="articles_description">{{description}}</p>
+		<a class="articles_btn" href="{{linkUrl}}">Read All</a>
+	</div>
+	{{/each}}
+</div>
