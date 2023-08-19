@@ -11,7 +11,7 @@ body {
 }
 
 * {
-  color: red;
+  color: blue;
 }
 
 h1 {
@@ -23,5 +23,52 @@ h1 {
 }
 
 #user {
-  h6: rgb(255, 242, 0);
+  color: rgb(255, 242, 0);
+}
+
+h1,
+h2,
+button {
+  color: green;
+}
+
+.button {
+  background: rgb(218, 243, 28);
+}
+
+#user,
+.user {
+  color: blue;
+}
+
+#box > p {
+  color: paleturquoise;
+}
+
+footer > .user {
+  color: palevioletred;
+}
+
+footer > h1 {
+  color: blueviolet;
+}
+
+footer > .user > em {
+  color: rgb(0, 245, 249);
+}
+
+footer p {
+  color:rgb(96, 170, 4):
+}
+
+.p-top {
+  background: black;
+}
+
+h1 + p {
+  background: black;
+}
+
+h1 ~ p, {
+  background: pink;
 }
